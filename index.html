@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>Hemen geliyorum</title>
+    <style>
+      h1 {
+        font-size: 200px;
+        color: red;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hemen geliyorum</h1>
+    <script>
+      (function bli() {
+        $("h1").fadeOut(500).fadeIn(500, bli);
+      })();
+    </script>
+  </body>
+</html>
